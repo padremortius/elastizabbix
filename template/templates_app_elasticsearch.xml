@@ -35,7 +35,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[health,active_primary_shards]</key>
+                    <key>elastizabbix[{$ES_HOST},health,active_primary_shards]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -78,7 +78,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[health,active_shards]</key>
+                    <key>elastizabbix[{$ES_HOST},health,active_shards]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -121,7 +121,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.flush.total_time_in_millis]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.flush.total_time_in_millis]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -164,7 +164,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.get.time_in_millis]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.get.time_in_millis]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -207,7 +207,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.indexing.index_time_in_millis]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.indexing.index_time_in_millis]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -250,7 +250,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.merges.total_time_in_millis]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.merges.total_time_in_millis]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -293,7 +293,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.refresh.total_time_in_millis]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.refresh.total_time_in_millis]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -336,7 +336,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.search.query_time_in_millis]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.search.query_time_in_millis]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -379,7 +379,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[health,status]</key>
+                    <key>elastizabbix[{$ES_HOST},health,status]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -422,7 +422,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[cluster,indices.docs.count]</key>
+                    <key>elastizabbix[{$ES_HOST},cluster,indices.docs.count]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -465,7 +465,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[cluster,indices.fielddata.evictions]</key>
+                    <key>elastizabbix[{$ES_HOST},cluster,indices.fielddata.evictions]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -508,7 +508,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[cluster,indices.fielddata.memory_size_in_bytes]</key>
+                    <key>elastizabbix[{$ES_HOST},cluster,indices.fielddata.memory_size_in_bytes]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -551,7 +551,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[cluster,indices.filter_cache.evictions]</key>
+                    <key>elastizabbix[{$ES_HOST},cluster,indices.filter_cache.evictions]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -594,7 +594,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[cluster,indices.filter_cache.memory_size_in_bytes]</key>
+                    <key>elastizabbix[{$ES_HOST},cluster,indices.filter_cache.memory_size_in_bytes]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -637,7 +637,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[cluster,indices.count]</key>
+                    <key>elastizabbix[{$ES_HOST},cluster,indices.count]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -680,7 +680,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[health,initializing_shards]</key>
+                    <key>elastizabbix[{$ES_HOST},health,initializing_shards]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -723,7 +723,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[cluster,nodes.count.data_only]</key>
+                    <key>elastizabbix[{$ES_HOST},cluster,nodes.count.data_only]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -766,7 +766,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[cluster,nodes.count.total]</key>
+                    <key>elastizabbix[{$ES_HOST},cluster,nodes.count.total]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -809,7 +809,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[health,number_of_pending_tasks]</key>
+                    <key>elastizabbix[{$ES_HOST},health,number_of_pending_tasks]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -852,7 +852,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[health,relocating_shards]</key>
+                    <key>elastizabbix[{$ES_HOST},health,relocating_shards]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -895,7 +895,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[cluster,indices.shards.total]</key>
+                    <key>elastizabbix[{$ES_HOST},cluster,indices.shards.total]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -938,7 +938,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.flush.total]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.flush.total]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -981,7 +981,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.get.total]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.get.total]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -1024,7 +1024,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.indexing.index_total]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.indexing.index_total]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -1067,7 +1067,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.merges.total]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.merges.total]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -1110,7 +1110,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.refresh.total]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.refresh.total]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -1153,7 +1153,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.search.query_total]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.search.query_total]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -1196,7 +1196,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[health,unassigned_shards]</key>
+                    <key>elastizabbix[{$ES_HOST},health,unassigned_shards]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -1239,7 +1239,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>elastizabbix[indices,_all.total.warmer.total]</key>
+                    <key>elastizabbix[{$ES_HOST},indices,_all.total.warmer.total]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -1283,7 +1283,7 @@
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>elastizabbix[discover,indices]</key>
+                    <key>elastizabbix[{$ES_HOST},discover,indices]</key>
                     <delay>60</delay>
                     <status>1</status>
                     <allowed_hosts/>
@@ -1317,7 +1317,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[indices, indices.{#NAME}.primaries.docs.count]</key>
+                            <key>elastizabbix[{$ES_HOST},indices, indices.{#NAME}.primaries.docs.count]</key>
                             <delay>1800</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1360,7 +1360,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[indices, indices.{#NAME}.totals.search.query_total]</key>
+                            <key>elastizabbix[{$ES_HOST},indices, indices.{#NAME}.totals.search.query_total]</key>
                             <delay>600</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1407,7 +1407,7 @@
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>elastizabbix[discover,nodes]</key>
+                    <key>elastizabbix[{$ES_HOST},discover,nodes]</key>
                     <delay>60</delay>
                     <status>0</status>
                     <allowed_hosts/>
@@ -1441,7 +1441,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.bulk.rejected]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.bulk.rejected]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1484,7 +1484,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.bulk.completed]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.bulk.completed]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1527,7 +1527,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.indices.docs.count]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.indices.docs.count]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1570,7 +1570,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.indices.docs.deleted]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.indices.docs.deleted]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1613,7 +1613,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.breakers.fielddata.tripped]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.breakers.fielddata.tripped]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1656,7 +1656,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.get.completed]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.get.completed]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1699,7 +1699,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.get.rejected]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.get.rejected]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1742,7 +1742,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.http.total_opened]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.http.total_opened]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1785,7 +1785,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.transport.rx_size_in_bytes]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.transport.rx_size_in_bytes]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1828,7 +1828,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.indices.store.size_in_bytes]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.indices.store.size_in_bytes]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1871,7 +1871,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.index.completed]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.index.completed]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1914,7 +1914,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.jvm.mem.heap_used_percent]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.mem.heap_used_percent]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -1957,7 +1957,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.jvm.mem.heap_max_in_bytes]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.mem.heap_max_in_bytes]</key>
                             <delay>3600</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2000,7 +2000,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.jvm.mem.pools.old.used_in_bytes]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.mem.pools.old.used_in_bytes]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2043,7 +2043,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.jvm.mem.pools.survivor.used_in_bytes]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.mem.pools.survivor.used_in_bytes]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2086,7 +2086,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.jvm.mem.pools.young.used_in_bytes]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.mem.pools.young.used_in_bytes]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2129,7 +2129,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.jvm.gc.collectors.old.collection_count]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.gc.collectors.old.collection_count]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2172,7 +2172,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.jvm.threads.count]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.threads.count]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2215,7 +2215,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.jvm.gc.collectors.young.collection_count]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.gc.collectors.young.collection_count]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2258,7 +2258,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.listener.completed]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.listener.completed]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2301,7 +2301,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.transport.tx_size_in_bytes]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.transport.tx_size_in_bytes]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2344,7 +2344,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.breakers.parent.tripped]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.breakers.parent.tripped]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2387,7 +2387,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.percolate.completed]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.percolate.completed]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2430,7 +2430,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.refresh.completed]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.refresh.completed]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2473,7 +2473,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.breakers.request.tripped]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.breakers.request.tripped]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2516,7 +2516,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.indices.search.fetch_total]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.indices.search.fetch_total]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2559,7 +2559,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.indices.search.query_total]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.indices.search.query_total]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2602,7 +2602,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.search.completed]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.search.completed]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2645,7 +2645,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.snapshot.completed]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.snapshot.completed]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2688,7 +2688,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.suggest.completed]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.suggest.completed]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2731,7 +2731,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.transport.server_open]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.transport.server_open]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2774,7 +2774,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.transport.rx_count]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.transport.rx_count]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2817,7 +2817,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.transport.tx_count]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.transport.tx_count]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2860,7 +2860,7 @@
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.warmer.completed]</key>
+                            <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.warmer.completed]</key>
                             <delay>60</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2900,7 +2900,7 @@
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{Template App ElasticSearch:elastizabbix[nodes,nodes.{#NODE}.breakers.fielddata.tripped].last()}&gt;0</expression>
+                            <expression>{Template App ElasticSearch:elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.breakers.fielddata.tripped].last()}&gt;0</expression>
                             <name>ElasticSearch fielddata breaker tripped on {#NAME}</name>
                             <url/>
                             <status>0</status>
@@ -2909,7 +2909,7 @@
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template App ElasticSearch:elastizabbix[nodes,nodes.{#NODE}.jvm.mem.heap_used_percent].last()}&gt;85</expression>
+                            <expression>{Template App ElasticSearch:elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.mem.heap_used_percent].last()}&gt;85</expression>
                             <name>ElasticSearch Node Heap is over 85% on {#NAME}</name>
                             <url/>
                             <status>0</status>
@@ -2918,7 +2918,7 @@
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template App ElasticSearch:elastizabbix[nodes,nodes.{#NODE}.breakers.parent.tripped].last()}&gt;0</expression>
+                            <expression>{Template App ElasticSearch:elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.breakers.parent.tripped].last()}&gt;0</expression>
                             <name>ElasticSearch parent breaker tripped on {#NAME}</name>
                             <url/>
                             <status>0</status>
@@ -2927,7 +2927,7 @@
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template App ElasticSearch:elastizabbix[nodes,nodes.{#NODE}.breakers.request.tripped].last()}&gt;0</expression>
+                            <expression>{Template App ElasticSearch:elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.breakers.request.tripped].last()}&gt;0</expression>
                             <name>ElasticSearch request breaker tripped on {#NAME}</name>
                             <url/>
                             <status>0</status>
@@ -2964,7 +2964,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.indices.docs.count]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.indices.docs.count]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -2976,7 +2976,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.indices.docs.deleted]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.indices.docs.deleted]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
@@ -2999,7 +2999,7 @@
                             <ymin_item_1>0</ymin_item_1>
                             <ymax_item_1>
                                 <host>Template App ElasticSearch</host>
-                                <key>elastizabbix[nodes,nodes.{#NODE}.jvm.mem.heap_max_in_bytes]</key>
+                                <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.mem.heap_max_in_bytes]</key>
                             </ymax_item_1>
                             <graph_items>
                                 <graph_item>
@@ -3011,7 +3011,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.jvm.mem.pools.old.used_in_bytes]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.mem.pools.old.used_in_bytes]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3023,7 +3023,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.jvm.mem.pools.survivor.used_in_bytes]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.mem.pools.survivor.used_in_bytes]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3035,7 +3035,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.jvm.mem.pools.young.used_in_bytes]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.jvm.mem.pools.young.used_in_bytes]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
@@ -3067,7 +3067,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.bulk.completed]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.bulk.completed]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3079,7 +3079,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.get.completed]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.get.completed]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3091,7 +3091,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.index.completed]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.index.completed]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3103,7 +3103,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.listener.completed]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.listener.completed]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3115,7 +3115,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.percolate.completed]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.percolate.completed]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3127,7 +3127,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.refresh.completed]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.refresh.completed]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3139,7 +3139,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.search.completed]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.search.completed]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3151,7 +3151,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.snapshot.completed]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.snapshot.completed]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3163,7 +3163,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.suggest.completed]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.suggest.completed]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3175,7 +3175,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.thread_pool.warmer.completed]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.thread_pool.warmer.completed]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
@@ -3207,7 +3207,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.transport.rx_size_in_bytes]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.transport.rx_size_in_bytes]</key>
                                     </item>
                                 </graph_item>
                                 <graph_item>
@@ -3219,7 +3219,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template App ElasticSearch</host>
-                                        <key>elastizabbix[nodes,nodes.{#NODE}.transport.tx_size_in_bytes]</key>
+                                        <key>elastizabbix[{$ES_HOST},nodes,nodes.{#NODE}.transport.tx_size_in_bytes]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
@@ -3340,7 +3340,7 @@
                             <dynamic>0</dynamic>
                             <sort_triggers>0</sort_triggers>
                             <resource>
-                                <key>elastizabbix[health,number_of_pending_tasks]</key>
+                                <key>elastizabbix[{$ES_HOST},health,number_of_pending_tasks]</key>
                                 <host>Template App ElasticSearch</host>
                             </resource>
                             <max_columns>3</max_columns>
@@ -3491,7 +3491,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template App ElasticSearch:elastizabbix[health,status].str(red)}=1</expression>
+            <expression>{Template App ElasticSearch:elastizabbix[{$ES_HOST},health,status].str(red)}=1</expression>
             <name>ElasticSearch Cluster Status is Red</name>
             <url/>
             <status>0</status>
@@ -3501,7 +3501,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template App ElasticSearch:elastizabbix[health,status].str(yellow)}=1</expression>
+            <expression>{Template App ElasticSearch:elastizabbix[{$ES_HOST},health,status].str(yellow)}=1</expression>
             <name>ElasticSearch Cluster Status is Yellow</name>
             <url/>
             <status>0</status>
@@ -3511,7 +3511,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template App ElasticSearch:elastizabbix[health,unassigned_shards].last()}&gt;0</expression>
+            <expression>{Template App ElasticSearch:elastizabbix[{$ES_HOST},health,unassigned_shards].last()}&gt;0</expression>
             <name>Unassigned Shards</name>
             <url/>
             <status>0</status>
@@ -3549,7 +3549,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[cluster,nodes.count.total]</key>
+                        <key>elastizabbix[{$ES_HOST},cluster,nodes.count.total]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3561,7 +3561,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[cluster,nodes.count.data_only]</key>
+                        <key>elastizabbix[{$ES_HOST},cluster,nodes.count.data_only]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3593,7 +3593,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[cluster,indices.docs.count]</key>
+                        <key>elastizabbix[{$ES_HOST},cluster,indices.docs.count]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3625,7 +3625,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[cluster,indices.fielddata.memory_size_in_bytes]</key>
+                        <key>elastizabbix[{$ES_HOST},cluster,indices.fielddata.memory_size_in_bytes]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3637,7 +3637,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[cluster,indices.fielddata.evictions]</key>
+                        <key>elastizabbix[{$ES_HOST},cluster,indices.fielddata.evictions]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3669,7 +3669,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[cluster,indices.filter_cache.memory_size_in_bytes]</key>
+                        <key>elastizabbix[{$ES_HOST},cluster,indices.filter_cache.memory_size_in_bytes]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3681,7 +3681,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[cluster,indices.filter_cache.evictions]</key>
+                        <key>elastizabbix[{$ES_HOST},cluster,indices.filter_cache.evictions]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3713,7 +3713,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.flush.total_time_in_millis]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.flush.total_time_in_millis]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3725,7 +3725,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.get.time_in_millis]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.get.time_in_millis]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3737,7 +3737,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.indexing.index_time_in_millis]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.indexing.index_time_in_millis]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3749,7 +3749,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.merges.total_time_in_millis]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.merges.total_time_in_millis]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3761,7 +3761,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.refresh.total_time_in_millis]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.refresh.total_time_in_millis]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3773,7 +3773,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.search.query_time_in_millis]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.search.query_time_in_millis]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3805,7 +3805,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.flush.total]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.flush.total]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3817,7 +3817,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.get.total]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.get.total]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3829,7 +3829,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.indexing.index_total]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.indexing.index_total]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3841,7 +3841,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.merges.total]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.merges.total]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3853,7 +3853,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.refresh.total]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.refresh.total]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3865,7 +3865,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.search.query_total]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.search.query_total]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3897,7 +3897,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[indices,_all.total.search.query_total]</key>
+                        <key>elastizabbix[{$ES_HOST},indices,_all.total.search.query_total]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -3929,7 +3929,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[health,initializing_shards]</key>
+                        <key>elastizabbix[{$ES_HOST},health,initializing_shards]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3941,7 +3941,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[health,relocating_shards]</key>
+                        <key>elastizabbix[{$ES_HOST},health,relocating_shards]</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -3953,7 +3953,7 @@
                     <type>0</type>
                     <item>
                         <host>Template App ElasticSearch</host>
-                        <key>elastizabbix[health,unassigned_shards]</key>
+                        <key>elastizabbix[{$ES_HOST},health,unassigned_shards]</key>
                     </item>
                 </graph_item>
             </graph_items>

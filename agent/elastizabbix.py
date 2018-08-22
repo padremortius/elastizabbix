@@ -9,10 +9,10 @@ import errno
 ttl = 60
 
 stats = {
-    'cluster': 'http://localhost:9200/_cluster/stats',
-    'nodes': 'http://localhost:9200/_nodes/stats',
-    'indices': 'http://localhost:9200/_stats',
-    'health': 'http://localhost:9200/_cluster/health'
+    'cluster': 'http://{0}:9200/_cluster/stats',
+    'nodes': 'http://{0}:9200/_nodes/stats',
+    'indices': 'http://{0}:9200/_stats',
+    'health': 'http://{0}:9200/_cluster/health'
 }
 
 
@@ -32,13 +32,13 @@ def is_older_then(name, ttl):
     return age > ttl
 
 
-def get_cache(api):
+def get_cache(eshost, api):
     cache = '/tmp/elastizabbix-{0}.json'.format(api)
     lock = '/tmp/elastizabbix-{0}.lock'.format(api)
     should_update = (not os.path.exists(cache)) or is_older_then(cache, ttl)
     if should_update and created_file(lock):
         try:
-            d = urllib2.urlopen(stats[api]).read()
+            d = urllib2.urlopen(stats[api].format(eshost)).read()
             with open(cache, 'w') as f:
                 f.write(d)
         except Exception as e:
@@ -52,12 +52,13 @@ def get_cache(api):
         with open(cache) as data_file:
             ret_data = json.load(data_file)
     except Exception as e:
-        ret_data = json.loads(urllib2.urlopen(stats[api]).read())
+        ret_data = json.loads(
+			urllib2.urlopen(stats[api].format(eshost)).read())
     return ret_data
 
 
-def get_stat(api, stat):
-    d = get_cache(api)
+def get_stat(eshost, api, stat):
+    d = get_cache(eshost, api)
     keys = []
     for i in stat.split('.'):
         keys.append(i)
@@ -68,31 +69,33 @@ def get_stat(api, stat):
     return d
 
 
-def discover_nodes():
+def discover_nodes(eshost):
     d = {'data': []}
-    for k, v in get_stat('nodes', 'nodes').iteritems():
+    for k, v in get_stat(eshost, 'nodes', 'nodes').iteritems():
         d['data'].append({'{#NAME}': v['name'], '{#NODE}': k})
     return json.dumps(d)
 
 
-def discover_indices():
+def discover_indices(eshost):
     d = {'data': []}
-    for k, v in get_stat('indices', 'indices').iteritems():
+    for k, v in get_stat(eshost, 'indices', 'indices').iteritems():
         d['data'].append({'{#NAME}': k})
     return json.dumps(d)
 
 
 if __name__ == '__main__':
-    api = sys.argv[1]
-    stat = sys.argv[2]
+	eshost = sys.argv[1]
+    api = sys.argv[2]
+    stat = sys.argv[3]
+
     if api == 'discover':
         if stat == 'nodes':
-            print discover_nodes()
+            print discover_nodes(eshost)
         if stat == 'indices':
-            print discover_indices()
+            print discover_indices(eshost)
 
     else:
-        stat = get_stat(api, stat)
+        stat = get_stat(eshost, api, stat)
         if isinstance(stat, dict):
             print ''
         else:
