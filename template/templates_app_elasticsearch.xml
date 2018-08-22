@@ -25,7 +25,7 @@
                     <name>ES Indices</name>
                 </application>
                 <application>
-                    <name>Nodes</name>
+                    <name>ES Nodes</name>
                 </application>
             </applications>
             <items>
@@ -1472,7 +1472,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1515,7 +1515,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1558,7 +1558,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1601,7 +1601,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1644,7 +1644,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1687,7 +1687,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1730,7 +1730,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1773,7 +1773,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1816,7 +1816,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1859,7 +1859,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1902,7 +1902,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1945,7 +1945,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -1988,7 +1988,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2031,7 +2031,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2074,7 +2074,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2117,7 +2117,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2160,7 +2160,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2203,7 +2203,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2246,7 +2246,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2289,7 +2289,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2332,7 +2332,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2375,7 +2375,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2418,7 +2418,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2461,7 +2461,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2504,7 +2504,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2547,7 +2547,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2590,7 +2590,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2633,7 +2633,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2676,7 +2676,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2719,7 +2719,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2762,7 +2762,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2805,7 +2805,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2848,7 +2848,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
@@ -2891,7 +2891,7 @@
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
-                                    <name>Nodes</name>
+                                    <name>ES Nodes</name>
                                 </application>
                             </applications>
                             <valuemap/>
