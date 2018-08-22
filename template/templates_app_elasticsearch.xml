@@ -19,7 +19,7 @@
             </groups>
             <applications>
                 <application>
-                    <name>Cluster</name>
+                    <name>ES Cluster</name>
                 </application>
                 <application>
                     <name>Indices</name>
@@ -66,7 +66,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -109,7 +109,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -410,7 +410,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -453,7 +453,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -496,7 +496,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -539,7 +539,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -582,7 +582,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -625,7 +625,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -668,7 +668,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -711,7 +711,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -754,7 +754,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -797,7 +797,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -840,7 +840,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -883,7 +883,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -926,7 +926,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
@@ -1227,7 +1227,7 @@
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
-                            <name>Cluster</name>
+                            <name>ES Cluster</name>
                         </application>
                     </applications>
                     <valuemap/>
