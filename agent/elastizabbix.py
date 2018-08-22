@@ -10,10 +10,11 @@ ttl = 60
 
 stats = {
     'cluster': 'http://localhost:9200/_cluster/stats',
-    'nodes'  : 'http://localhost:9200/_nodes/stats',
+    'nodes': 'http://localhost:9200/_nodes/stats',
     'indices': 'http://localhost:9200/_stats',
-    'health' : 'http://localhost:9200/_cluster/health'
+    'health': 'http://localhost:9200/_cluster/health'
 }
+
 
 def created_file(name):
     try:
@@ -25,9 +26,11 @@ def created_file(name):
             return False
         raise
 
+
 def is_older_then(name, ttl):
     age = time.time() - os.path.getmtime(name)
     return age > ttl
+
 
 def get_cache(api):
     cache = '/tmp/elastizabbix-{0}.json'.format(api)
@@ -36,20 +39,22 @@ def get_cache(api):
     if should_update and created_file(lock):
         try:
             d = urllib2.urlopen(stats[api]).read()
-            with open(cache, 'w') as f: f.write(d)
+            with open(cache, 'w') as f:
+                f.write(d)
         except Exception as e:
-            pass        
+            pass
         if os.path.exists(lock):
             os.remove(lock)
-    if  os.path.exists(lock) and is_older_then(lock, 300):
+    if os.path.exists(lock) and is_older_then(lock, 300):
         os.remove(lock)
     ret_data = {}
     try:
-        with open(cache)  as data_file:    
-            ret_data = json.load(data_file)        
+        with open(cache) as data_file:
+            ret_data = json.load(data_file)
     except Exception as e:
         ret_data = json.loads(urllib2.urlopen(stats[api]).read())
-    return ret_data   
+    return ret_data
+
 
 def get_stat(api, stat):
     d = get_cache(api)
@@ -62,15 +67,17 @@ def get_stat(api, stat):
             keys = []
     return d
 
+
 def discover_nodes():
     d = {'data': []}
-    for k,v in get_stat('nodes', 'nodes').iteritems():
+    for k, v in get_stat('nodes', 'nodes').iteritems():
         d['data'].append({'{#NAME}': v['name'], '{#NODE}': k})
     return json.dumps(d)
 
+
 def discover_indices():
     d = {'data': []}
-    for k,v in get_stat('indices', 'indices').iteritems():
+    for k, v in get_stat('indices', 'indices').iteritems():
         d['data'].append({'{#NAME}': k})
     return json.dumps(d)
 
